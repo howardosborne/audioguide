@@ -1,15 +1,10 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+title: Buckingham Old Gaol Audio Guide
+layout: audio
 ---
 <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
         An audio guide for Buckingham Old Gaol
-    </div>
-    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-        <div id="map" class="col-md-12" style="height: 500px;"></div>
     </div>
 </div>
 <hr>
