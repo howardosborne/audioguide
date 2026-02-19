@@ -3,7 +3,7 @@ title: Buckingham Old Gaol Audio Library
 layout: audio
 ---
 <div class="row">
-        <h1>The Buckingham Old Gaol Audio Guide</h1>
+        <h1>Audio Guided Tour</h1>
 </div>
 <div class="row">
 {% for item in site.data.recordings %}
