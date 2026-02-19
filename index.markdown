@@ -3,7 +3,7 @@ title: Buckingham Old Gaol Audio Library
 layout: audio
 ---
 <div class="row">
-        <h1>Audio Guided Tour</h1>
+        <h2>Audio Guided Tour</h2>
 </div>
 <div class="row">
 {% for item in site.data.recordings %}
@@ -24,7 +24,7 @@ layout: audio
 </div>
 <hr>
 <div class="row">
-        <h1>Flora Thompson at 150</h1>
+        <h2>Flora Thompson at 150</h2>
 </div>
 <div class="row">
 {% for item in site.data.recordings %}
