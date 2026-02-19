@@ -4,16 +4,16 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:psc="http://podlove.org/simple-chapters">
   <channel>
-    <title>Buckingham Old Gaol</title>
-    <image>https://static.wixstatic.com/media/69900b_6cd7a4ccc9e5496d9189e16245d3921a~mv2.png/v1/fill/w_407,h_451,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/og%20logo.png</image>
+    <title>{{ site.title }}</title>
+    <image>{{ site.image }}</image>
     <itunes:owner>
-        <itunes:email>admin.hr@buckinghamoldgaol.org.uk</itunes:email>
+        <itunes:email>{{ site.email }}</itunes:email>
     </itunes:owner>
-    <itunes:author>Buckingham Old Gaol</itunes:author>
-    <itunes:image href="https://static.wixstatic.com/media/69900b_6cd7a4ccc9e5496d9189e16245d3921a~mv2.png/v1/fill/w_407,h_451,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/og%20logo.png"/>
+    <itunes:author>{{ site.author }}</itunes:author>
+    <itunes:image href="{{ site.image }}"/>
     <language>en-uk</language>
-    <description><![CDATA[<p>An audio guide to Buckingham Old Gaol. For more details about the museum, see the <a href='https://greatouseways.info'>Buckingham Old Gaol Website</a></p>]]></description>
-    <content:encoded><![CDATA[<p>An audio guide to Buckingham Old Gaol. For more details about the museum, see the <a href='https://greatouseways.info'>Buckingham Old Gaol Website</a></p>]]></content:encoded>
+    <description><![CDATA[<p>{{ site.description }}. <a href='{{ site.website}}'>Website</a></p>]]></description>
+    <content:encoded><![CDATA[<p>{{ site.description }}. <a href='{{ site.website}}'>Website</a></p>]]></content:encoded>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
     <itunes:category text="Leisure"/>
     <itunes:explicit>false</itunes:explicit>
@@ -31,10 +31,10 @@ layout: null
         <itunes:image href='{{ item[1].pod_image | prepend: site.baseurl | prepend: site.url }}' />
         <link>{{ site.url }}{{ site.baseurl }}/audio.html?chat={{ item[0] }}</link>
         <itunes:explicit>false</itunes:explicit>
-        <itunes:summary>{{ item[1].about | xml_escape }}&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat={{ item[0] }}&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</itunes:summary>
-        <itunes:author>Buckingham Old Gaol</itunes:author>
+        <itunes:summary>{{ item[1].about | xml_escape }}</itunes:summary>
+        <itunes:author>{{ site.author }}</itunes:author>
         <itunes:order>{{ item[1].order }}</itunes:order>
-        <content:encoded>{{ item[1].about | xml_escape }}&lt;br&gt;&lt;a href=&apos;https://greatouseways.info/audio.html?chat={{ item[0] }}&apos; target=&apos;blank&apos;&gt;location on map&lt;/a&gt;</content:encoded>
+        <content:encoded>{{ item[1].about | xml_escape }}</content:encoded>
         <enclosure url='{{ item[1].filepath | prepend: site.baseurl | prepend: site.url }}' type='audio/mpeg' length='{{ item[1].size }}'/>
         <guid isPermaLink="true">{{ item[1].filepath | prepend: site.baseurl | prepend: site.url }}</guid>
       </item>

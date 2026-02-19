@@ -1,7 +1,7 @@
 {
 	"intro": {
 		"filepath": "/assets/audio/intro.mp3",
-		"heading": "Introduction",
+		"heading": "Audio Guide: Introduction",
 		"about": "About Buckingham Old Gaol",
 		"image": "/assets/images/intro.jpg",
 		"pod_image": "/assets/images/intro.jpg",
@@ -9,6 +9,33 @@
 		"date": "2026/02/16 00:01:00 +0000",
 		"size" : 2261304,
 		"draft":  "false",
+		"series": "audio_guide",
 		"order": 1
+	},
+	"the_real_candleford_green": {
+		"filepath": "/assets/audio/the_real_candleford_green.mp3",
+		"heading": "Flora Thompson: The Real Candleford Green",
+		"about": "A conversation with Martin about the real Candleford Green - Fringford",
+		"image": "/assets/images/candleford_green.jpg",
+		"pod_image": "/assets/images/candleford_green.jpg",
+		"image_attribution": "",
+		"date": "2026/02/16 00:01:00 +0000",
+		"size" : 25859931,
+		"draft":  "false",
+		"series": "flora",
+		"order": 2
+	},
+	"on_the_trail": {
+		"filepath": "/assets/audio/on_the_trail_of_flora_thompson.mp3",
+		"heading": "Flora Thompson: On The Trail of Flora",
+		"about": "A conversation with Jo Smith about Flora's life after 'Candleford Green'",
+		"image": "/assets/images/heath.jpeg",
+		"pod_image": "/assets/images/heath.jpeg",
+		"image_attribution": "",
+		"date": "2026/02/16 00:01:00 +0000",
+		"size" : 15883896,
+		"draft":  "false",
+		"series": "flora",
+		"order": 3
 	}
 }
