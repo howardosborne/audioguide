@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Buckingham Old Gaol Audio Guide
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://howardosborne.github.io/audioguide/ # the base hostname & protocol for your site, e.g. http://example.com
-image: https://howardosborne.github.io/audioguide/assets/images/
+image: https://howardosborne.github.io/audioguide/assets/images/drawing.jpg
 author: Buckingham Old Gaol
 
 # Build settings
