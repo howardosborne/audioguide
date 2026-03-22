@@ -12,6 +12,19 @@
 		"series": "audio_guide",
 		"order": 1
 	},
+	"intro": {
+		"filepath": "/assets/audio/buckingham_audio_guide_2.mp3",
+		"heading": "Buckingham Audio Guide 2",
+		"about": "About Buckingham Old Gaol",
+		"image": "/assets/images/intro.jpg",
+		"pod_image": "/assets/images/buckingham_audio_guide_2.jpg",
+		"image_attribution": "",
+		"date": "2026/03/22 00:01:00 +0000",
+		"size" : 1235616,
+		"draft":  "false",
+		"series": "audio_guide",
+		"order": 2
+	},
 	"the_real_candleford_green": {
 		"filepath": "/assets/audio/the_real_candleford_green.mp3",
 		"heading": "The Real Candleford Green",
