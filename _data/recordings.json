@@ -12,7 +12,7 @@
 		"series": "audio_guide",
 		"order": 1
 	},
-	"intro": {
+	"buckingham_audio_guide_2": {
 		"filepath": "/assets/audio/buckingham_audio_guide_2.mp3",
 		"heading": "Buckingham Audio Guide 2",
 		"about": "About Buckingham Old Gaol",
