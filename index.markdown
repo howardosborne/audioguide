@@ -10,6 +10,7 @@ layout: audio
 {% if item[1].series == "audio_guide" %}
 <div class="row">
     <div class="card" id="{{ item[0] }}" style="margin-bottom:5px">
+        <img src="{{ site.baseurl }}{{ item[1].image }}" class="card-img" alt="{{ item[1].heading }}">
         <h5 class="card-title" >{{ item[1].heading }}</h5>
         <p class="card-text" >{{ item[1].about }}</p>
         <audio controls>
@@ -30,6 +31,7 @@ layout: audio
 {% if item[1].series == "flora" %}
 <div class="row">
     <div class="card" id="{{ item[0] }}" style="margin-bottom:5px">
+        <img src="{{ site.baseurl }}{{ item[1].image }}" class="card-img" alt="{{ item[1].heading }}">
         <h5 class="card-title" >{{ item[1].heading }}</h5>
         <p class="card-text" >{{ item[1].about }}</p>
         <audio controls>
@@ -50,6 +52,7 @@ layout: audio
 {% if item[1].series == "bmmt" %}
 <div class="row">
     <div class="card" id="{{ item[0] }}" style="margin-bottom:5px">
+        <img src="{{ site.baseurl }}{{ item[1].image }}" class="card-img" alt="{{ item[1].heading }}">
         <h5 class="card-title" >{{ item[1].heading }}</h5>
         <p class="card-text" >{{ item[1].about }}</p>
         <audio controls>
