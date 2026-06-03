@@ -168,6 +168,19 @@
 		"series": "flora",
 		"order": 5
 	},
+	"david_watts": {
+		"filepath": "/assets/audio/david_watts.mp3",
+		"heading": "Floras of the future",
+		"about": "In this conversation with David Watts, relative and co-author of Flora Thompson's Country, we learn how he too followed a life of collecting and sharing our common history - all sparked by childhood curiosity.",
+		"image": "/assets/images/flora_thompsons_country.jpg",
+		"pod_image": "/assets/images/flora_thompsons_country.jpg",
+		"image_attribution": "",
+		"date": "2026/06/04 00:01:00 +0000",
+		"size" : 15883896,
+		"draft":  "false",
+		"series": "flora",
+		"order": 6
+	},
 	"bmmt_01": {
 		"filepath": "/assets/audio/bmmt_01.mp3",
 		"heading": "Citizen Soldiers",
